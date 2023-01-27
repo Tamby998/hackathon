@@ -1,13 +1,12 @@
 <template>
-  <test />
+  <home />
 </template>
   
-  <script>
+<script>
 
 
-  </script>
-  
-  <style>
-  
-  </style>
-  
+</script>
+
+<style>
+
+</style>
