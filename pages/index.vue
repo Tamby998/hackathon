@@ -1,5 +1,6 @@
 <template>
   <home />
+  <!-- <singup /> -->
 </template>
   
 <script>

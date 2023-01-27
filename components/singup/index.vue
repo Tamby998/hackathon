@@ -1,8 +1,3 @@
-<script>
-let toggleMenu = () => {
-    console.log('test')
-}
-</script>
 <template>
 <div class="mainContainer">
     <div class="box" id='box1'>
@@ -23,24 +18,21 @@ let toggleMenu = () => {
                 </div>
             </div>
             <div class="row">
-                <div>
-                    <div class="flex items-center justify-center">
-                    <div class="datepicker relative form-floating mb-3 xl:w-96">
-                        <input type="text"
-                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                        placeholder="Select a date" />
-                        <label for="floatingInput" class="text-gray-700">Select a date</label>
-                    </div>
-                </div>
+                <div class="formInput">
+                    <label>Birth date</label>
+                    <input type="date" name="birthDate" id="birthDate" placeholder="Enter your birth date">
                 </div>
             </div>
             <div class="row">
                 <div class="formInput">
                     <label for="parentNumber">Parent's phone number</label>
-                    <input type="text" id="parentNumber">
+                    <input type="text" id="parentNumber" placeholder="+261*********">
                 </div>
             </div>
-            <button @click="toggleMenu" >Next</button>
+            <button>Next</button>
+            
+
+            
         </form>
         </div>
         <div class="box" id="box2">
@@ -127,7 +119,7 @@ let toggleMenu = () => {
     margin-bottom: .5rem;
     font-size: 12px;
 }
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=date] {
     padding: .5rem 1rem;
     border-radius: .2rem;
     background: #ffffff6e;
@@ -148,9 +140,3 @@ button:hover {
     display: none;
 }
 </style>
-
-<script>
-let toggleMenu = () => {
-    console.log('test')
-}
-</script>
