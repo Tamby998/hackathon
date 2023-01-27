@@ -1,5 +1,5 @@
 <template>
-  <test />
+  <singup />
 </template>
   
   <script>
