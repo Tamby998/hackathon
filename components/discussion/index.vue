@@ -54,7 +54,7 @@
     margin-block: 2rem;
 }
 .listContainer>div:hover {
-    transform: translateX(-2rem);
+    transform: translateX(-1rem);
     transition: .5s ease;
     box-shadow: 0 0 1rem #0000003b;
 }

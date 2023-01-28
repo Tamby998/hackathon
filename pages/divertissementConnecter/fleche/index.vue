@@ -2,9 +2,6 @@
     <divertissementConnecter-fleche />
   </template>
   
-  <script>
-  </script>
-  
   <!-- <style>
 
   </style> -->
@@ -22,7 +19,8 @@ export default {
 }
 </script> -->
 
-<style lang="scss">
+<!-- <style lang="scss"> -->
+<style>
 
 .main-app {
   font-family: 'Gluten', cursive;
