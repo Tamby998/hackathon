@@ -8,11 +8,11 @@
                 class="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left">
                 <h2 class="mb-4 text-3xl font-bold text-left lg:text-5xl">
                     Savoir
-                    <span class="text-5xl text-blue-500 leading-relaxeds"
+                    <span class="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left text-blue-500 leading-relaxeds"
                         >écouter
                     </span>
                     est un 
-                    <span class="text-5xl text-blue-500 leading-relaxeds"
+                    <span class="tmx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left text-blue-500 leading-relaxeds"
                         >art.
                     </span>
                 </h2>
@@ -22,9 +22,9 @@
                 </p>
             </div>
             <div class="text-center lg:text-left">
-                <a
+                <nuxt-link to="/login"
                     class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-white bg-blue-500 rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block primaryButton"
-                    >Se connecter</a
+                    >Se connecter</nuxt-link
                 >
                 <a
                     class="block visible py-4 px-8 text-xs font-semibold leading-none bg-white rounded border border-solid cursor-pointer sm:inline-block border-slate-200 text-slate-500 secondaryButton"

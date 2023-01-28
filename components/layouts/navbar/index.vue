@@ -25,13 +25,13 @@
   <!-- <img src="../../../assets/img/logo.png" alt=""> -->
 </div>
   <ul class="menu">
-    <li>Accueil</li>
+    <nuxt-link to="/"><li>Accueil</li></nuxt-link>
     <li>Divertissement</li>
     <li>Discussion</li>
     <li>Education</li>
     <li>Recherche</li>
   </ul>
-<div class="login"><button>Se connecter</button></div>
+<div class="login"><nuxt-link to="/login">Se connecter</nuxt-link></div>
 
 </div>
 <div class="bg-white flex justify-center">
