@@ -22,6 +22,9 @@
 						<div class="relative">
 							<button class="bg-blue-500 text-white rounded-md px-2 py-1 connectButton">Se connecter</button>
 						</div>
+						<div class="textBottom">
+							Pas de compte, veuillez en créer un <nuxt-link to="/inscription" class="loginLink"> ici.</nuxt-link>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -33,5 +36,12 @@
 .connectButton {
 	background: #37B6F6;
 	padding: .5rem 2rem;
+}
+.textBottom {
+	font-size: .8rem;
+}
+.textBottom .loginLink {
+	color: #37B6F6;
+	text-decoration: underline;
 }
 </style>
