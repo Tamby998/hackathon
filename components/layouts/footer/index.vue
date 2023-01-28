@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white">
+    <div class="bg-white footerPage">
     <div class="mx-auto container py-16 xl:px-20 lg:px-12 sm:px-6 px-4">
   <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
   <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4">
@@ -52,4 +52,15 @@
   </div>
 </div>
 </template>
+
+<style>
+.footerPage {
+  /* background: #f1f1f1; */
+  box-shadow: 0 0 5rem #00000017;
+  /* margin-top: 10rem; */
+}
+.footerPage .container {
+  padding-top: 5rem;
+}
+</style>
 

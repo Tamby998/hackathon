@@ -7,15 +7,15 @@
             <div
                 class="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left">
                 <h2 class="mb-4 text-3xl font-bold text-left lg:text-5xl">
-                    Exclusive Agency For
+                    Vous voulez
                     <span class="text-5xl text-blue-500 leading-relaxeds"
-                        >Technology
+                        >limiter le temps d'écran
                     </span>
-                    Provide Solution
+                    de votre enfant
                 </h2>
                 <p
                     class="visible mx-0 mt-3 mb-0 text-sm leading-relaxed text-left text-slate-400">
-                    Helping you maximize operations management with digitization
+                    La dépendance numérique extrême détruit la vie des enfants du monde entier La dépendance numérique extrême détruit la vie des enfants du monde entier Avec des enfants du monde entier immergés dans la technologie dès leur plus jeune âge, il est grand temps nous avons réfléchi à l'impact saisissant que cela a sur leur développement.
                 </p>
             </div>
             <div class="text-center lg:text-left">

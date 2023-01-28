@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="bg-white">
-  <div class="flex items-center justify-between flex-wrap mr-2 ml-4">
+  <div class="flex items-center justify-between flex-wrap mx-10">
       <div class="flex items-center flex-shrink-0 text-white mt-12">
           <img src="../../../assets/gif/logo.gif" alt="Logo" class="w-20 h-20">
           <span class="font-semibold text-xl tracking-tight text-black">Mon Site</span>
@@ -27,19 +27,12 @@
 </div>
 </template>
 <style>
-/* .nuxt-link-exact-active::after{
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 3rem;
-  height: 5px;
-  background: blue;
-} */
 .nuxt-link-exact-active{
   font-weight: bold;
 }
-nuxt-link{
-  transition: .5s ease;
+button {
+  width: auto;
+  padding-inline: 2rem;
 }
 
 </style>
