@@ -82,8 +82,7 @@ export default {
   modules: [
       // https://go.nuxtjs.dev/axios
       "@nuxtjs/axios",
-      "@nuxtjs/auth-next",
-      'nuxt-tv-toast',
+      "@nuxtjs/auth-next"
       // '@nuxtjs/i18n',
   ],
   auth: {
