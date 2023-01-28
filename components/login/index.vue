@@ -43,7 +43,14 @@ export default {
 	},
 	methods: {
 		async login () {
-			this.$router.push(`/rechercheConnecter`)
+			try {
+				let response = await this.$auth.loginWith("local", {
+					data: this.loginData
+				});
+				alert(response)
+			} catch (error) {
+				alert(error)
+			}
 		}
 	}
 }

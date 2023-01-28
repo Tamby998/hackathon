@@ -16,11 +16,11 @@
               <nuxt-link to="/recherche" class="px-4 py-2 text-lg font-medium text-gray-800 hover:text-gray-600 ml-8 mr-8 mt-12">Recherche</nuxt-link>
           </div>
       </nav>
-      <form @submit.prevent="onClick" v-if="showMe==''">
+      <!-- <form @submit.prevent="onClick" v-if="showMe==''">
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-12">
             <nuxt-link to="/login">Se Connecter</nuxt-link>
         </button>
-      </form>
+      </form> -->
 
 </div>
 </div>
