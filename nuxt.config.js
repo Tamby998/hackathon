@@ -105,7 +105,7 @@ export default {
 //        data: "refresh_token",
 //      },
         endpoints: {
-          login: { url: "/login", method: "post" },
+          login: { url: "/identification", method: "post" },
 //        refresh: { url: "/api/auth/refresh-token", method: "post" },
           logout: false, //  we don't have an endpoint for our logout in our API and we just remove the token from localstorage
           user: { url: "/user/current", method: "get" }
@@ -119,7 +119,7 @@ export default {
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.ETCRM_URL,
+    baseURL: process.env.BACK_URL,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
