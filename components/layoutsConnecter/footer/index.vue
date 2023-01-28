@@ -1,97 +1,11 @@
 <template>
-    <div>
-        <div>
-  <div class="bg-white topNav">
-  <!-- <div class="flex items-center justify-arround flex-wrap mx-10 navContainer">
-      <div class="flex items-center flex-shrink-0 text-white mt-12">
-          <img src="../../../assets/gif/logo.gif" alt="Logo" class="w-20 h-20">
-          <span class="font-semibold text-xl tracking-tight text-black">Mon Site</span>
-      </div>
-      <nav class="bg-size-cover mx-auto" style="background-image: url(https://live.templateelementor.com/little-talk/wp-content/uploads/sites/57/2022/08/Group-28516.png); background-size: cover; height: 100px;"> -->
-          <!-- Contenu de la navbar -->
-          <!-- <div class="flex items-center">
-              <nuxt-link to="/" class="px-4 py-2 text-lg font-medium text-gray-800 hover:text-gray-600 ml-8 mr-8 mt-12 text-gray-200">Home</nuxt-link>
-              <nuxt-link to="/divertissement" class="px-4 py-2 text-lg font-medium text-gray-800 hover:text-gray-600 ml-8 mr-8 mt-12">Divertisement</nuxt-link>
-              <nuxt-link to="/discussion" class="px-4 py-2 text-lg font-medium text-gray-800 hover:text-gray-600 ml-8 mr-8 mt-12">Discussion</nuxt-link>
-              <nuxt-link to="/education" class="px-4 py-2 text-lg font-medium text-gray-800 hover:text-gray-600 ml-8 mr-8 mt-12">Education</nuxt-link>
-              <nuxt-link to="/recherche" class="px-4 py-2 text-lg font-medium text-gray-800 hover:text-gray-600 ml-8 mr-8 mt-12">Recherche</nuxt-link>
-          </div>
-      </nav>
-  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-12 loginButton">
-    <nuxt-link to="/login" >Se Connecter</nuxt-link>
-  </button>
-</div> -->
-
-<div class="logo">
-  <!-- <img src="../../../assets/img/logo.png" alt=""> -->
-</div>
-  <ul class="menu">
-
-    <nuxt-link to="/" class="li">Accueil</nuxt-link>
-    <nuxt-link to="/divertissement" class="li">Divertissement</nuxt-link>
-    <nuxt-link to="/discussion" class="li">Discussion</nuxt-link>
-    <nuxt-link to="/education" class="li">Education</nuxt-link>
-    <nuxt-link to="/recherche" class="li">Recherche</nuxt-link>
-  </ul>
-<div class="login"><button><nuxt-link to="/login">Se connecter</nuxt-link></button></div>
-
-
-</div>
-<div class="bg-white flex justify-center">
-
-  </div>
-
-    </div>
-    <div class="bg-white flex justify-center">
-<section
-        class="bg-white flex flex-wrap items-center -mx-3 font-sans px-4 mx-auto w-full lg:max-w-screen-lg sm:max-w-screen-sm md:max-w-screen-md pb-20">
-        <!-- Column-1 -->
-        <div class="px-3 w-full lg:w-2/5">
-            <div
-                class="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left">
-                <h2 class="mb-4 text-3xl font-bold text-left lg:text-5xl">
-                    Savoir
-                    <span class="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left text-blue-500 leading-relaxeds"
-                        >écouter
-                    </span>
-                    est un 
-                    <span class="tmx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left text-blue-500 leading-relaxeds"
-                        >art.
-                    </span>
-                </h2>
-                <p
-                    class="visible mx-0 mt-3 mb-0 text-sm leading-relaxed text-left text-slate-400">
-                    La dépendance numérique extrême détruit la vie des enfants du monde entier La dépendance numérique extrême détruit la vie des enfants du monde entier Avec des enfants du monde entier immergés dans la technologie dès leur plus jeune âge, il est grand temps nous avons réfléchi à l'impact saisissant que cela a sur leur développement.
-                </p>
-            </div>
-            <div class="text-center lg:text-left">
-                <nuxt-link to="/login"
-                    class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-white bg-blue-500 rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block primaryButton"
-                    >Se connecter</nuxt-link
-                >
-                <a
-                    class="block visible py-4 px-8 text-xs font-semibold leading-none bg-white rounded border border-solid cursor-pointer sm:inline-block border-slate-200 text-slate-500 secondaryButton"
-                    >S'inscrire</a
-                >
-            </div>
-        </div>
-
-        <!-- Column-2 -->
-        <div class="px-3 mb-12 w-full lg:mb-0 lg:w-3/5">
-            <!-- Illustrations Container -->
-            <div class="flex justify-center items-center">
-              <img src="../../assets/gif/footer.gif" alt="Logo" class="block max-w-full h-auto align-middle lg:max-w-lg">
-            </div>
-        </div>
-    </section>
-</div>
-<div class="bg-white footerPage">
+    <div class="bg-white footerPage">
     <div class="mx-auto container py-16 xl:px-20 lg:px-12 sm:px-6 px-4">
   <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
   <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4">
     <div class="flex flex-col flex-shrink-0">
       <div class="dark:text-black">
-        <img src="../../assets/gif/footer.gif" alt="Logo" class="w-40 h-40">
+        <img src="../../../assets/gif/footer.gif" alt="Logo" class="w-40 h-40">
       </div>
       <div class="flex items-center gap-x-4 mt-12 buttonGroup">
         <button aria-label="instagram" class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 opacity-50 w-8 h-8 flex-shrink-0 bg-gray-800 cursor-pointer hover:bg-gray-700 rounded-full flex items-center justify-center">
@@ -127,24 +41,24 @@
       <a href="javascript:void(0)" class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-gray-800  cursor-pointer">Terms of service</a>
     </div>
     <div class="mt-10 lg:block hidden">
-        <img src="../../assets/gif/footer2.gif" alt="Logo" class="w-26 h-26">
+        <img src="../../../assets/gif/footer2.gif" alt="Logo" class="w-26 h-26">
       </div>
     </div>
   </div>
 </div>
-</div>
-
 </template>
-<style>
-.primaryButton {
-    background: #37B6F6;
-}
-.secondaryButton {
-    background-color: #F99D07;
-    color: #fff;
-}
-.leading-relaxeds {
-    color: #37B6F6;
-}
 
+<style>
+.footerPage {
+  /* background: #f1f1f1; */
+  box-shadow: 0 0 5rem #00000017;
+  /* margin-top: 10rem; */
+}
+.footerPage .container {
+  padding-top: 5rem;
+}
+.buttonGroup button {
+  background: #37B6F6;
+}
 </style>
+

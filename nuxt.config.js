@@ -41,6 +41,7 @@ export default {
     base: process.env.CORE_DIR || '/',
     // middleware: 'i18n'
   },
+
   loading: { color: 'cyan' },
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [

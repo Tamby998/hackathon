@@ -4,7 +4,11 @@
 </template>
   
 <script>
-
+export default {
+    head: {
+      layout: 'default'
+    }
+}
 
 </script>
 
