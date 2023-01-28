@@ -30,7 +30,7 @@
     <nuxt-link to="/divertissementConnecter" class="li">Divertissement</nuxt-link>
     <nuxt-link to="/chat" class="li">Discussion</nuxt-link>
     <nuxt-link to="/educationConnecter" class="li">Education</nuxt-link>
-    <nuxt-link to="/rechercheConnecter" class="li">Recherche</nuxt-link>
+    <nuxt-link to="/recherche" class="li">Recherche</nuxt-link>
   </ul>
 <!-- <div class="login"><button><nuxt-link to="/login">Se connecter</nuxt-link></button></div> -->
 
