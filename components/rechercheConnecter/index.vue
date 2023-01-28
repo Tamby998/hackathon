@@ -19,6 +19,9 @@
                      <iframe width="560" height="315" :src="'https://www.youtube.com/embed/'+ i.id.videoId" frameborder="0" allowfullscreen></iframe>
 
                 </div>
+                <div v-if="erreur!=''">
+                    <span>{{erreur}}</span>
+                </div>
             </div>
     </form>
   </template>
@@ -28,7 +31,8 @@
     export default {
        data() {
             return {
-                 titres : []
+                 titres : [],
+                 erreur : ""
             };
         },
         methods: {
@@ -47,6 +51,8 @@
                     .then(
                     response => {
                         console.log(response.data.items);
+                        if(response.data.items == undefined)
+                        this.erreur = "Aucun resultat";
                         if(response.data.items)
                         {
                             for(let i = 0; i < response.data.items.length;i++){

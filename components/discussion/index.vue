@@ -15,10 +15,11 @@
                 <img src="https://i.ibb.co/0n6DSS3/bgimg.png" class="absolute w-full -ml-12 mt-24" alt="background circle images" />
                 <div role="listitem" class="bg-white cursor-pointer shadow rounded-lg p-8 relative z-30">
                     <div class="md:flex items-center justify-between">
-                        <h2 class="text-2xl font-semibold leading-6 text-gray-800">Starter</h2>
-                        <p class="text-2xl font-semibold md:mt-0 mt-4 leading-6 text-gray-800">FREE</p>
+                        <h2 class="text-2xl font-semibold leading-6 text-gray-800">Discuter avec des amis</h2>
                     </div>
-                    <p class="md:w-80 text-base leading-6 mt-4 text-gray-600">Full access to all features and no credit card required</p>
+                    <ul v-for="(i,liste) in listes" :key="liste">
+                        <nuxt-link to="/chat">{{i.name}} {{i.firstname}}</nuxt-link>
+                    </ul>
                 </div>
                 <div role="listitem" class="bg-white cursor-pointer shadow rounded-lg mt-3 flex relative z-30">
                     <div class="w-2.5 h-auto bg-indigo-700 rounded-tl-md rounded-bl-md"></div>
@@ -42,3 +43,35 @@
         </div>
     </div>
 </template>
+<script>
+     import axios from "axios";
+    export default {
+       data() {
+            return {
+                 listes : []
+            };
+        },
+        mounted: function() {
+          axios
+                    .get("http://localhost:8000/api/liste", {
+                    headers: {
+                        Accept: "application/json"
+                    }
+                    })
+                    .then(
+                    response => {
+                        for(let i = 0; i < response.data.data.length;i++){
+                            this.listes.push(response.data.data[i]);
+                        }
+                    },
+                    );
+        },
+        methods: {
+            onSubmit(){
+                // (on mount Event)
+                
+            }
+        }
+    }
+  
+</script>
