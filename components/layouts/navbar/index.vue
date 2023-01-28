@@ -25,13 +25,13 @@
   <!-- <img src="../../../assets/img/logo.png" alt=""> -->
 </div>
   <ul class="menu">
-    <li>Accueil</li>
-    <li>Divertissement</li>
-    <li>Discussion</li>
-    <li>Education</li>
-    <li>Recherche</li>
+    <nuxt-link to="/" class="li">Accueil</nuxt-link>
+    <nuxt-link to="/divertissement" class="li">Divertissement</nuxt-link>
+    <nuxt-link to="/discussion" class="li">Discussion</nuxt-link>
+    <nuxt-link to="/education" class="li">Education</nuxt-link>
+    <nuxt-link to="/recherche" class="li">Recherche</nuxt-link>
   </ul>
-<div class="login"><button>Se connecter</button></div>
+<div class="login"><button><nuxt-link to="/login">Se connecter</nuxt-link></button></div>
 
 </div>
 <div class="bg-white flex justify-center">
@@ -59,7 +59,7 @@
   display: flex;
   gap: 1.5rem;
 }
-.menu li {
+.menu .li {
   color: white;
   font-size: 1.1rem;
   font-weight: 600;
