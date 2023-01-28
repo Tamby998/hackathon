@@ -1,17 +1,16 @@
 <template>
     <div class="bg-white flex justify-center">
       <div class="lg:flex items-center justify-between mt-6 ml-5">
-            <div class="lg:w-1/2 w-full">
-                <h1 role="heading" class="md:text-5xl text-3xl font-bold leading-10 mt-3 text-gray-800">Our pricing plan</h1>
-                <p role="contentinfo" class="text-base leading-5 mt-5 text-gray-600">We’re working on a suit of tools to make managing complex systems easier, for everyone for free. we can’t wait to hear what you think</p>
+            <div class="lg:w-1/2 w-full px-10">
+                <h1 role="heading" class="md:text-5xl text-3xl font-bold leading-10 mt-3 text-gray-800">Echange entre Parents et Enfants</h1>
+                <p role="contentinfo" class="text-base leading-5 mt-5 text-gray-600">l est bon d'aider les enfants à rester informés de ce qui se passe dans leur monde, mais, les journaux ordinaires peuvent ne pas être le moyen idéal de le faire. Sites Web de nouvelles sécuritaires pour les enfants 8 Sites Web sécuritaires pour les enfants où les enfants peuvent écouter toutes les nouvelles récentes</p>
                 <div class="w-56">
                     <button onclick="toggleIt()" class="bg-gray-100 shadow rounded-full flex items-center mt-10 rounded-full">
-                        <div class="bg-gray-100 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none text-base leading-none text-gray-600 rounded-full py-4 px-6 mr-1" id="monthly">Commencer</div>
-                        <div class="bg-indigo-700 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none text-base leading-none text-white rounded-full py-4 px-6" id="annually">à Discuter</div>
+                        Commencer à discuter
                     </button>
                 </div>
             </div>
-            <div class="xl:w-1/2 lg:w-7/12 relative w-full lg:mt-0 mt-12 md:px-8" role="list">
+            <div class="xl:w-1/2 lg:w-7/12 relative w-full lg:mt-0 mt-12 md:px-8 my-12 listContainer" role="list">
                 <img src="https://i.ibb.co/0n6DSS3/bgimg.png" class="absolute w-full -ml-12 mt-24" alt="background circle images" />
                 <div role="listitem" class="bg-white cursor-pointer shadow rounded-lg p-8 relative z-30">
                     <div class="md:flex items-center justify-between">
@@ -42,3 +41,21 @@
         </div>
     </div>
 </template>
+
+<style>
+.w-56 button {
+    background: #fc6d0e;
+    transition: .5s ease;
+}
+.w-56 button:hover {
+    background: #ee6c15;
+}
+.listContainer {
+    margin-block: 2rem;
+}
+.listContainer>div:hover {
+    transform: translateX(-2rem);
+    transition: .5s ease;
+    box-shadow: 0 0 1rem #0000003b;
+}
+</style>
