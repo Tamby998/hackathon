@@ -27,7 +27,7 @@
         <div class="px-3 mb-12 w-full lg:mb-0 lg:w-3/5">
             <!-- Illustrations Container -->
             <div class="flex justify-center items-center">
-              <img src="../../assets/gif/footer.gif" alt="Logo" class="block max-w-full h-auto align-middle lg:max-w-lg">
+              <img src="../../assets/gif/homeconnecter.gif" alt="Logo" class="block max-w-full h-auto align-middle lg:max-w-lg">
             </div>
         </div>
     </section>
