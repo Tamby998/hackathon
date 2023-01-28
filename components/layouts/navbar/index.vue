@@ -25,6 +25,7 @@
   <!-- <img src="../../../assets/img/logo.png" alt=""> -->
 </div>
   <ul class="menu">
+<<<<<<< HEAD
     <nuxt-link to="/" class="li">Accueil</nuxt-link>
     <nuxt-link to="/divertissement" class="li">Divertissement</nuxt-link>
     <nuxt-link to="/discussion" class="li">Discussion</nuxt-link>
@@ -32,6 +33,15 @@
     <nuxt-link to="/recherche" class="li">Recherche</nuxt-link>
   </ul>
 <div class="login"><button><nuxt-link to="/login">Se connecter</nuxt-link></button></div>
+=======
+    <nuxt-link to="/"><li>Accueil</li></nuxt-link>
+    <li>Divertissement</li>
+    <li>Discussion</li>
+    <li>Education</li>
+    <li>Recherche</li>
+  </ul>
+<div class="login"><nuxt-link to="/login">Se connecter</nuxt-link></div>
+>>>>>>> 617f3a45eb1615088f83daa4a4a0cf40eea5a818
 
 </div>
 <div class="bg-white flex justify-center">
