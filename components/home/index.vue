@@ -7,11 +7,14 @@
             <div
                 class="mx-auto mb-8 max-w-lg text-center lg:mx-0 lg:max-w-md lg:text-left">
                 <h2 class="mb-4 text-3xl font-bold text-left lg:text-5xl">
-                    Vous voulez
+                    Savoir
                     <span class="text-5xl text-blue-500 leading-relaxeds"
-                        >limiter le temps d'écran
+                        >écouter
                     </span>
-                    de votre enfant
+                    est un 
+                    <span class="text-5xl text-blue-500 leading-relaxeds"
+                        >art.
+                    </span>
                 </h2>
                 <p
                     class="visible mx-0 mt-3 mb-0 text-sm leading-relaxed text-left text-slate-400">
@@ -20,12 +23,12 @@
             </div>
             <div class="text-center lg:text-left">
                 <a
-                    class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-white bg-blue-500 rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block"
-                    >Key Features</a
+                    class="block visible py-4 px-8 mb-4 text-xs font-semibold tracking-wide leading-none text-white bg-blue-500 rounded cursor-pointer sm:mr-3 sm:mb-0 sm:inline-block primaryButton"
+                    >Se connecter</a
                 >
                 <a
-                    class="block visible py-4 px-8 text-xs font-semibold leading-none bg-white rounded border border-solid cursor-pointer sm:inline-block border-slate-200 text-slate-500"
-                    >How We Work?</a
+                    class="block visible py-4 px-8 text-xs font-semibold leading-none bg-white rounded border border-solid cursor-pointer sm:inline-block border-slate-200 text-slate-500 secondaryButton"
+                    >S'inscrire</a
                 >
             </div>
         </div>
@@ -40,3 +43,15 @@
     </section>
 </div>
 </template>
+<style>
+.primaryButton {
+    background: #37B6F6;
+}
+.secondaryButton {
+    background-color: #F99D07;
+    color: #fff;
+}
+.leading-relaxeds {
+    color: #37B6F6;
+}
+</style>
